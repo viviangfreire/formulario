@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Inclusive+Sans&family=Kanit:wght@600&family=Mooli&family=Quicksand:wght@700&family=Roboto:ital,wght@0,500;0,700;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(45deg, rgb(48, 128, 189), rgb(35, 84, 209));
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    align-content:center;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+
+.input-form {
+    width: 70%;
+    background: transparent ;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0.5, 0.5, 0.5, 0.5);
+    margin: 0.8rem;
+}
+.formulario {
+    width: 80%;
+    background: transparent ;
+    outline: none;
+    padding: 30px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0.5, 0.5, 0.5, 0.5);
+    margin: 0.8rem;
+}
+  
+  
+::placeholder {
+    color: rgb(62, 62, 62);
+}
+
+.input-form:first-child {
+    margin-top: 2rem;
+}
+
+.input-form:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    color: rgb(0, 0, 67);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.284);
+    max-width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(103, 174, 255);
+}
+
+.btn:hover {
+    background-color: rgb(164, 205, 252);
+    transform: scale(1.1);
+}
